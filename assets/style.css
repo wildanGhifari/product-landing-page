@@ -137,7 +137,11 @@ nav ul li a:hover {
 }
 
 .featureCard {
-  padding: 32px 24px;
+  padding: 42px;
+  text-align: center;
+}
+.featureCard i {
+  margin-bottom: 24px;
 }
 .featureCard p {
   margin-top: 16px;
