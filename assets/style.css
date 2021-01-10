@@ -60,7 +60,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 5% 0; */
+  padding: 5% 0;
 }
 
 #heroCol {
@@ -98,3 +98,34 @@ nav ul li a:hover {
   background-color: #888888;
 }
 /* END OF SECTION HERO */
+
+.container {
+  padding: 5% 0;
+}
+
+/* FEATURES SECTION */
+#features {
+  padding: 36px 72px;
+  color: #fff;
+  background-color: #888888;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCol {
+  flex: 33.3%;
+  max-width: 33.3%;
+}
+
+.featureCard {
+  padding: 32px 24px;
+}
+.featureCard p {
+  margin-top: 16px;
+  line-height: 24px;
+}
+/* END OF FEATURES SECTION */
