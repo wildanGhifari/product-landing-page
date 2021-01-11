@@ -27,10 +27,6 @@
                 <h1>The Best Homemade <br> Cake, Bakery & Snacks You Can Get</h1>
                 <p>Best cake & bakery for your event, be it birthday, wedding or family gathering. We'll make it great for you!</p>
                 <button><a href="#pre-order" class="btn">Pre Order Now!</a></button>
-                <!-- <form action="https://www.freecodecamp.com/email-submit" id="form">
-                    <input type="email" name="email" id="email" placeholder="Enter your email address" required>
-                    <button type="submit" id="submit" class="btn">Get Started</button>
-                </form> -->
             </div>
             <div id="heroCol" class="hero-img">
                 <img style="width: 100%;" src="http://placehold.co/1080x1080" alt="">
@@ -119,6 +115,52 @@
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section id="pre-order">
+                <!-- <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                    <button type="submit" id="submit" class="btn">Get Started</button>
+                </form> -->
+                <form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
+                    <div class="form-group">
+                        <label for="name" id="name-label">Fullname</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your fullname" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" id="email-label">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="your@mail.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" id="phone-label">Phone Number</label>
+                        <input type="number" name="phone" id="phone" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <p>What would you like to order?</p>
+                        <select name="order" id="dropdown" class="form-control">
+                            <option selected="" disabled="" value="">-Cnhoose One-</option>
+                            <option value="bakery">Bakery</option>
+                            <option value="cake">Cake</option>
+                            <option value="cookies">Cookies</option>
+                            <option value="snacks">Snacks</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="qty" id="qty-label">How many do you want to order?</label>
+                        <input type="number" name="qty" id="qty" class="form-control" min="1" max="9999" required>
+                    </div>
+
+                    <div class="form-group">
+                        <p>Please enter your full address. (Kecamatan, Kelurahan dan No. Rumah wajib tercantum)</p>
+                        <textarea name="address" id="address" class="input-textarea" placeholder="Enter your address here..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-button" id="submit">Submit My Order</button>
+                </form>
             </section>
         </div>
     </main>

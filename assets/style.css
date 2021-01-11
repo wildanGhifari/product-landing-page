@@ -93,25 +93,6 @@ nav ul li a:hover {
   text-transform: uppercase;
   font-size: 16px;
 }
-/* .hero-quotes form {
-  margin-top: 48px;
-  display: flex;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
-}
-.hero-quotes form input {
-  width: 80%;
-  padding: 10px;
-  border: none;
-  font-size: 14px;
-}
-.hero-quotes button {
-  width: 20%;
-  border: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #fff;
-  background-color: #888888;
-} */
 /* END OF SECTION HERO */
 
 .container {
@@ -239,3 +220,32 @@ nav ul li a:hover {
   line-height: 22px;
 }
 /* END OF TESTIMONAL SECTION */
+
+/* PRE-ORDER SECTION */
+#pre-order {
+  padding: 36px 72px;
+  color: #fff;
+  background-color: #888888;
+}
+
+/* #pre-order form {
+  width: ;
+  display: flex;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+#pre-order form input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+#pre-order button {
+  width: 20%;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff;
+  background-color: #888888;
+} */
+
+/* END OF PRE-ORDER SECTION */
