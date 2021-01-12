@@ -55,6 +55,15 @@ nav ul li a:hover {
   color: #080808;
 }
 
+nav li #order {
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #888888;
+}
+
+nav ul li #order:hover {
+  background-color: #080808;
+}
 /* SECTION HERO */
 #hero {
   display: flex;
