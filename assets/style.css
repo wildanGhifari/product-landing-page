@@ -64,6 +64,19 @@ nav li #order {
 nav ul li #order:hover {
   background-color: #080808;
 }
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #888888;
+  transition: all 0.3s ease;
+}
+
 /* SECTION HERO */
 #hero {
   display: flex;
@@ -323,6 +336,59 @@ footer .socMed i {
 /* END OF FOOTER */
 
 @media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  /* NAV */
+  nav ul {
+    position: absolute;
+    right: 8px;
+    height: 91.2vh;
+    top: 9.8vh;
+    background-color: #fda6a6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(105%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  /* END OF NAV */
+
   /* HERO SECTION */
   #hero {
     display: flex;
