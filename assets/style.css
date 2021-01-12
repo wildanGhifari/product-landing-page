@@ -321,3 +321,105 @@ footer .socMed i {
   margin-left: 24px;
 }
 /* END OF FOOTER */
+
+@media (max-width: 576px) {
+  /* HERO SECTION */
+  #hero {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0;
+  }
+
+  #heroCol {
+    flex: 100%;
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 24px;
+  }
+
+  #hero button {
+    width: 100%;
+    margin-top: 24px;
+  }
+  #hero button:hover {
+    cursor: pointer;
+  }
+
+  #hero button a {
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  /* END OF HERO SECTION */
+
+  /* FEATURE SECTION */
+  #features {
+    padding: 36px 16px;
+    color: #fff;
+    background-color: #888888;
+  }
+
+  .flexRow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .flexCol {
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .featureCard {
+    padding: 16px;
+    text-align: center;
+  }
+  /* END OF FEATURE SECTION */
+
+  /* PRODUCT SECTION */
+  #products {
+    padding: 36px 16px;
+  }
+
+  .flexRow-product {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .flexCol-product {
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+    padding: 0;
+  }
+
+  .flexCol-product button {
+    width: 100%;
+    margin-top: 24px;
+    padding: 12px 24px;
+    border: none;
+  }
+
+  .productRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .productCol {
+    flex: 80% t;
+    min-width: 80%;
+    padding: 0;
+    margin-right: 16px;
+  }
+  /* END OF PRODUCT SECTION */
+}
