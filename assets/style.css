@@ -248,4 +248,63 @@ nav ul li a:hover {
   background-color: #888888;
 } */
 
+form {
+  width: 75%;
+  margin: auto;
+  padding: 12px 24px;
+}
+
+form p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.form-group {
+  margin: 24px 0;
+  margin-bottom: 32px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 14px;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 18px;
+  resize: vertical;
+  font-size: 14px;
+  border: none;
+}
+
+form .note {
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+form button {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #080808;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 2pt;
+  color: #fff;
+}
+
+form button:hover {
+  cursor: pointer;
+}
 /* END OF PRE-ORDER SECTION */
