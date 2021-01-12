@@ -422,4 +422,75 @@ footer .socMed i {
     margin-right: 16px;
   }
   /* END OF PRODUCT SECTION */
+
+  /* TESTIMONIAL SECTION */
+  #testimonial {
+    padding: 36px 16px;
+  }
+
+  .flexRow-testi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .flexCol-testi-outer {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .flexCol-testi-inner {
+    flex: 80% !important;
+    min-width: 80% !important;
+  }
+
+  .testiCard {
+    padding: 32px 24px;
+    margin: 16px 0;
+    margin-right: 16px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  }
+  /* END OF TESTIMONIAL SECTION */
+
+  /* PRE-ORDER SECTION */
+  #pre-order {
+    padding: 36px 16px;
+    color: #fff;
+    background-color: #888888;
+  }
+
+  form {
+    width: 100%;
+    margin: auto;
+    padding: 12px 0;
+  }
+  /* END OF PRE-ORDER SECTION */
+
+  /* FOOTER */
+  footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 16px;
+  }
+
+  footer .footer-info a {
+    margin-right: 0;
+    margin: 0 16px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer .copyRights {
+    margin-top: 24px;
+  }
+
+  footer .socMed i {
+    margin-left: 0;
+    margin: 0 16px;
+    margin-top: 24px;
+  }
+  /* END OF FOOTER */
 }
