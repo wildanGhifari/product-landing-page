@@ -104,9 +104,9 @@ nav ul li #order:hover {
 }
 /* END OF SECTION HERO */
 
-.container {
-  padding: 5% 0;
-}
+/* .container {
+  padding: 0;
+} */
 
 /* FEATURES SECTION */
 #features {
@@ -237,26 +237,6 @@ nav ul li #order:hover {
   background-color: #888888;
 }
 
-/* #pre-order form {
-  width: ;
-  display: flex;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
-}
-#pre-order form input {
-  width: 80%;
-  padding: 10px;
-  border: none;
-  font-size: 14px;
-}
-#pre-order button {
-  width: 20%;
-  border: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #fff;
-  background-color: #888888;
-} */
-
 form {
   width: 75%;
   margin: auto;
@@ -317,3 +297,27 @@ form button:hover {
   cursor: pointer;
 }
 /* END OF PRE-ORDER SECTION */
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 72px;
+  color: #fff;
+  background-color: #080808;
+}
+
+footer .footer-info a {
+  margin-right: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+footer .footer-info a:hover {
+  text-decoration: underline;
+}
+
+footer .socMed i {
+  margin-left: 24px;
+}
+/* END OF FOOTER */
