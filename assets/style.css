@@ -207,6 +207,18 @@ nav ul li #order:hover {
 }
 /* END OF PRODUCTS SECTION */
 
+/* HOW ITS MADE SECTION */
+#how-its-made {
+  padding: 36px 72px;
+}
+
+#how-its-made iframe {
+  width: 100%;
+  height: 500px;
+  margin: auto !important;
+}
+/* END OF HOW ITS MADE SECTION */
+
 /* TESTIMONAL SECTION */
 #testimonial {
   padding: 36px 72px;
@@ -528,6 +540,18 @@ footer .socMed i {
     margin-right: 16px;
   }
   /* END OF PRODUCT SECTION */
+
+  /* HOW ITS MADE SECTION */
+  #how-its-made {
+    padding: 36px 16px;
+  }
+
+  #how-its-made iframe {
+    width: 100%;
+    height: 280px;
+    margin: auto !important;
+  }
+  /* END OF HOW ITS MADE SECTION */
 
   /* TESTIMONIAL SECTION */
   #testimonial {
