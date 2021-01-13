@@ -197,6 +197,7 @@ nav ul li #order:hover {
   flex: 50% !important;
   width: 50%;
   padding: 10px;
+  text-align: center;
 }
 .productCol img {
   width: 100%;
@@ -204,6 +205,19 @@ nav ul li #order:hover {
 .productCol img:hover {
   cursor: pointer;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product-container {
+  position: relative;
+}
+
+.product-category-title {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  background-color: #888888;
+  opacity: 7.5;
+  bottom: 0;
 }
 /* END OF PRODUCTS SECTION */
 
