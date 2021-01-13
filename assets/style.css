@@ -215,8 +215,12 @@ nav ul li #order:hover {
   position: absolute;
   width: 100%;
   padding: 20px;
-  background-color: #888888;
-  opacity: 7.5;
+  color: #fff;
+  background: linear-gradient(
+    360deg,
+    rgba(8, 8, 8, 1) 0%,
+    rgba(0, 212, 255, 0) 100%
+  );
   bottom: 0;
 }
 /* END OF PRODUCTS SECTION */
