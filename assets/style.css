@@ -12,6 +12,13 @@ body {
   font-weight: 400;
 }
 
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+
 #header {
   width: 100%;
   display: flex;
@@ -92,9 +99,6 @@ nav ul li #order:hover {
   padding: 0 72px;
 }
 
-.hero-quotes h1 {
-  font-size: 42px;
-}
 .hero-quotes p {
   margin-top: 24px;
   font-size: 20px;
@@ -340,6 +344,13 @@ footer .socMed i {
   body,
   html {
     overflow-x: hidden !important;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
   }
 
   /* NAV */
