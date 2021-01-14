@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
 
+:root {
+  --cream: #feedcf;
+  --pink: #f9c7e4;
+  --pink-secondary: #ee96c9;
+  --black: #080808;
+  --grey: #808080;
+  --white: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -66,6 +75,7 @@ nav li #order {
   padding: 12px 24px;
   color: #fff;
   background-color: #888888;
+  border-radius: 50px;
 }
 
 nav ul li #order:hover {
@@ -91,12 +101,18 @@ nav ul li #order:hover {
   align-items: center;
   padding: 5% 0;
   margin-top: 80px;
+  color: var(--black);
+  background-color: var(--cream);
 }
 
 #heroCol {
   flex: 50%;
   width: 50%;
   padding: 0 72px;
+}
+
+.hero-quotes h1 {
+  font-weight: 900;
 }
 
 .hero-quotes p {
@@ -109,8 +125,11 @@ nav ul li #order:hover {
   margin-top: 48px;
   padding: 12px 24px;
   border: none;
+  border-radius: 25px;
+  background-color: var(--grey);
 }
 #hero button:hover {
+  background-color: var(--black);
   cursor: pointer;
 }
 
@@ -119,6 +138,7 @@ nav ul li #order:hover {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
+  color: var(--white);
 }
 /* END OF SECTION HERO */
 
@@ -129,8 +149,12 @@ nav ul li #order:hover {
 /* FEATURES SECTION */
 #features {
   padding: 36px 72px;
-  color: #fff;
-  background-color: #888888;
+  color: var(--grey);
+  background-color: var(--pink);
+}
+
+#features h2 {
+  color: var(--black);
 }
 
 .flexRow {
@@ -175,17 +199,25 @@ nav ul li #order:hover {
 }
 .flexCol-product p {
   margin-top: 24px;
+  color: var(--grey);
 }
 .flexCol-product button {
   margin-top: 48px;
   padding: 12px 24px;
   border: none;
+  border-radius: 25px;
+  background-color: var(--grey);
 }
+.flexCol-product button:hover {
+  background-color: var(--black);
+}
+
 .flexCol-product a {
   padding: 12px 24px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
+  color: var(--white);
 }
 
 .productRow {
@@ -199,29 +231,26 @@ nav ul li #order:hover {
   padding: 10px;
   text-align: center;
 }
+
 .productCol img {
-  width: 100%;
+  width: 64px;
 }
-.productCol img:hover {
+
+.product-container {
+  padding: 32px 16px;
+  margin: 16px 0;
+  border: solid 0.5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.product-container:hover {
   cursor: pointer;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
 }
 
-.product-container {
-  position: relative;
-}
-
 .product-category-title {
-  position: absolute;
   width: 100%;
-  padding: 20px;
-  color: #fff;
-  background: linear-gradient(
-    360deg,
-    rgba(8, 8, 8, 1) 0%,
-    rgba(0, 212, 255, 0) 100%
-  );
-  bottom: 0;
+  margin-top: 24px;
+  color: var(--black);
 }
 /* END OF PRODUCTS SECTION */
 
@@ -254,6 +283,7 @@ nav ul li #order:hover {
 }
 .flexCol-testi-outer p {
   margin-top: 24px;
+  color: var(--grey);
 }
 .flexRow-testi-inner {
   display: flex;
@@ -282,13 +312,31 @@ nav ul li #order:hover {
 #pre-order {
   padding: 36px 72px;
   color: #fff;
-  background-color: #888888;
+  background-color: var(--grey);
+}
+
+.pre-order-text {
+  margin: 24px 0;
 }
 
 form {
   width: 75%;
   margin: auto;
   padding: 12px 24px;
+}
+form input {
+  border: none;
+  border-radius: 25px;
+}
+form input:valid {
+  background-color: var(--cream);
+}
+form select {
+  border: none;
+  border-radius: 25px;
+}
+form select:valid {
+  background-color: var(--cream);
 }
 
 form p {
@@ -297,8 +345,7 @@ form p {
 }
 
 .form-group {
-  margin: 24px 0;
-  margin-bottom: 32px;
+  margin: 32px 0;
 }
 
 label {
@@ -321,24 +368,28 @@ label {
   resize: vertical;
   font-size: 14px;
   border: none;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
 }
 
 form .note {
   margin-bottom: 24px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 form button {
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
   margin-bottom: 10px;
   border: none;
-  background-color: #080808;
+  border-radius: 25px;
+  background-color: var(--cream);
   text-transform: uppercase;
+  font-size: 16px;
   font-weight: 700;
   line-height: 2pt;
-  color: #fff;
+  color: var(--black);
 }
 
 form button:hover {
@@ -352,13 +403,13 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 24px 72px;
-  color: #fff;
-  background-color: #080808;
+  color: var(--pink);
+  background-color: var(--black);
 }
 
 footer .footer-info a {
   margin-right: 24px;
-  color: #fff;
+  color: var(--pink);
   text-decoration: none;
 }
 footer .footer-info a:hover {
@@ -494,8 +545,6 @@ footer .socMed i {
   /* FEATURE SECTION */
   #features {
     padding: 36px 16px;
-    color: #fff;
-    background-color: #888888;
   }
 
   .flexRow {
